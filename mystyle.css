@@ -72,6 +72,16 @@ img {
     flex-direction: row;
 }
 
+.about-flex {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.about-flex h2 {
+    text-align: center;
+}
+
 .blog-container {
     width: 60%;
     margin-right: 10px;
@@ -79,4 +89,24 @@ img {
 
 .courses-container {
     width: 40%;
+}
+
+/* footer */
+.footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.footer-content nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
 }
