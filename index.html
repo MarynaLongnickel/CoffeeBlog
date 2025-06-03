@@ -6,21 +6,23 @@
   <link rel="stylesheet" href="./mystyle.css">
 </head>
 <body>
+    
     <header class="primary-header">
-        <h1>Coffee Blog</h1>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="courses.html">Courses</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+        <div class="header-flex">
+            <h1>Coffee Blog</h1>
+            <nav class="menu">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="courses.html">Courses</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
         <p>Coffee Blog with tips and Courses</p>
         <p>Learn from the experts with the best recipes and tips</p>
     </header>  
 
-    <main class="container">
-
-        <section>
+    <main class="container main-flex">
+        <section class="blog-container">
             <h2>Our Blog</h2>
             <div>
                 <img src="./img/blog1.jpg">
@@ -28,14 +30,12 @@
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis beatae illum labore quibusdam nesciunt veritatis deserunt doloremque neque amet, maxime quae. Non quod natus nesciunt nam doloremque quia, ratione quos.</p>
                 <a class="btn btn-black" href="#">Read more</a>
             </div>
-
             <div>
                 <img src="./img/blog2.jpg" alt="coffee cups">
                 <h3>3 Delicious Coffee Recipes</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita maxime facilis, illum ratione harum, quas quidem, qui placeat iure cupiditate vitae et officiis natus sed quaerat quo similique ducimus reprehenderit?</p>
                 <a class="btn btn-black" href="#">Read more</a>
             </div>
-
             <div>
                 <img src="./img/blog3.jpg" alt="coffee beans">
                 <h3>Coffee Benefits</h3>
@@ -44,7 +44,7 @@
             </div>
         </section>
 
-        <section>
+        <section class="courses-container">
             <h2>Our courses and workshops</h2>
             <div>
                 <h3>Coffee extraction techniques</h3>
@@ -59,7 +59,6 @@
                 <a class="btn btn-brown" href="#">More information</a>
             </div>
         </section>
-
     </main>
 </body>
 </html>
